@@ -5,6 +5,8 @@
  */
 package proyectopractica;
 
+import java.util.Scanner;
+
 /**
  *
  * @author USER
@@ -16,6 +18,9 @@ public class ProyectoPractica {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+     InicializarSistema sistema= new InicializarSistema();
+     sistema.inicializarSistema();
     }
     
 }
